@@ -31,3 +31,8 @@ body {
     padding: 0; //width < 900px ?
   }
 }
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}

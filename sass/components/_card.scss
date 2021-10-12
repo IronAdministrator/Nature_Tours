@@ -181,8 +181,9 @@
 
   ////////////// MEDIA-QUERY //////////////
 
-  @include respond(tab-port) {
-    //FUNCTIONALITY OF THE CARD
+  // @include respond(tab-port) {
+  //FUNCTIONALITY OF THE CARD
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     height: auto;
     border-radius: $radius-default;
     background-color: $color-white;
