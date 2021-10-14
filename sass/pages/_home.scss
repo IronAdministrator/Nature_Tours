@@ -69,7 +69,7 @@
       rgba($color-white, 0.9) 50%,
       transparent 50%
     ),
-    url(../../img/nat-10.jpg);
+    url(../img/nat-10.jpg);
   background-size: cover; // = 100%
   border-radius: $radius-default;
   box-shadow: $shadow-on-green;
@@ -81,7 +81,7 @@
         rgba($color-white, 0.9) 65%,
         transparent 65%
       ),
-      url(../../img/nat-10.jpg);
+      url(../img/nat-10.jpg);
   }
 
   @include respond(tab-port) {
@@ -90,7 +90,7 @@
         rgba($color-white, 0.9) 0%,
         rgba($color-white, 0.9) 100%
       ),
-      url(../../img/nat-10.jpg);
+      url(../img/nat-10.jpg);
   }
 
   &__form {
